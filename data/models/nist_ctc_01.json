@@ -1,0 +1,170 @@
+{
+ "id": "nist_ctc_01",
+ "vertices": 3854,
+ "triangles": 3694,
+ "bounds": [
+  [
+   -400.0,
+   -225.0,
+   -75.0
+  ],
+  [
+   400.0,
+   225.0,
+   75.0
+  ]
+ ],
+ "source": "nist_ctc_01_asme1_rd.stp",
+ "features": [
+  {
+   "feature_id": "Hole_01",
+   "center": [
+    -325.0,
+    -175.0,
+    -25.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 35.0,
+   "depth": 100.0
+  },
+  {
+   "feature_id": "Hole_02",
+   "center": [
+    -325.0,
+    175.0,
+    -25.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 35.0,
+   "depth": 100.0
+  },
+  {
+   "feature_id": "Hole_03",
+   "center": [
+    325.0,
+    -175.0,
+    -25.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 35.0,
+   "depth": 100.0
+  },
+  {
+   "feature_id": "Hole_04",
+   "center": [
+    325.0,
+    175.0,
+    -25.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 35.0,
+   "depth": 100.0
+  },
+  {
+   "feature_id": "Hole_05",
+   "center": [
+    -160.0,
+    -45.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 25.0,
+   "depth": 50.0
+  },
+  {
+   "feature_id": "Hole_06",
+   "center": [
+    -160.0,
+    45.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 25.0,
+   "depth": 50.0
+  },
+  {
+   "feature_id": "Hole_07",
+   "center": [
+    160.0,
+    -45.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 25.0,
+   "depth": 50.0
+  },
+  {
+   "feature_id": "Hole_08",
+   "center": [
+    160.0,
+    45.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 25.0,
+   "depth": 50.0
+  },
+  {
+   "feature_id": "Hole_09",
+   "center": [
+    -30.0,
+    -102.5,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "diameter": 20.0,
+   "depth": 45.0
+  },
+  {
+   "feature_id": "Hole_10",
+   "center": [
+    30.0,
+    -102.5,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "diameter": 20.0,
+   "depth": 45.0
+  }
+ ]
+}

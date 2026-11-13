@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Metrology Engine</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}</script>
+</head><body>
+<header><b>3D Spatial Intelligence Metrology Engine</b><span id="status">ready</span></header>
+<main>
+<aside id="side">
+  <section><h3>1 · Part (optional CAD model)</h3>
+    <select id="part"></select><div id="partinfo" class="muted"></div></section>
+  <section><h3>2 · CMM report</h3>
+    <div class="row"><select id="fmt"><option value="csv">CSV</option><option value="pcdmis">PC-DMIS text</option></select>
+      <label>severity <input id="sev" type="number" value="1" min="0" max="5" step="0.5"></label></div>
+    <button id="gen">Generate synthetic report &amp; analyze</button>
+    <div class="muted">or upload a real export:</div>
+    <input type="file" id="file" accept=".csv,.txt,.dat">
+    <details><summary>Traceability</summary>
+      <label>Machine <input id="machine" value="CMM-01"></label>
+      <label>Calibration cert ID <input id="cert" value="CAL-2026-0001"></label>
+      <label>Datum feature IDs <input id="datums" placeholder="blank = best-fit all"></label></details>
+  </section>
+  <section><h3>3 · Display</h3>
+    <label>Exaggeration <b id="exv">10×</b><input id="ex" type="range" min="1" max="20" step="0.5" value="10"></label>
+    <div class="row"><label><input type="radio" name="mode" value="aligned" checked> Aligned (local springback)</label>
+      <label><input type="radio" name="mode" value="raw"> Raw (incl. rigid)</label></div>
+    <label><input type="checkbox" id="nomv" checked> Nominal ghost</label>
+    <label><input type="checkbox" id="heat" checked> Deviation heat map</label>
+    <label>Heat-map image (UV projection) <input type="file" id="heatimg" accept="image/*"></label>
+    <label><input type="checkbox" id="pins" checked> Feature markers</label>
+  </section>
+  <section><h3>4 · Section slice</h3>
+    <div class="row"><select id="axis"><option>X</option><option>Y</option><option selected>Z</option><option>Custom</option></select>
+      <label><input type="checkbox" id="slon" checked> on</label></div>
+    <div id="custom" hidden class="row"><input id="cx" type="number" value="1" step=".1"><input id="cy" type="number" value="1" step=".1"><input id="cz" type="number" value="0" step=".1"></div>
+    <input id="slpos" type="range" min="0" max="1" step="0.001" value="0.5"><span id="slv" class="muted"></span>
+  </section>
+  <section id="alignbox" hidden><h3>Alignment</h3><div id="align" class="muted"></div></section>
+</aside>
+<div id="stage"><canvas id="gl"></canvas><div id="legend" hidden></div>
+  <div id="slice2d"><canvas id="sc" width="360" height="260"></canvas><div class="muted">Section: <span style="color:#7aa2ff">nominal</span> · <span style="color:#ff6a5e">actual</span> · drift vectors ×exaggeration</div></div></div>
+<aside id="right"><h3>GD&amp;T · True position @ MMC</h3><div id="sum" class="muted"></div>
+  <div id="tbl"></div><div id="prov" class="muted"></div></aside>
+</main>
+<script type="module" src="app.js"></script>
+</body></html>

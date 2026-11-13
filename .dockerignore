@@ -1,0 +1,7 @@
+.venv
+.git
+*.swp
+__pycache__
+data/audit.jsonl
+data/samples
+tools

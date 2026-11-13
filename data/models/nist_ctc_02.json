@@ -1,0 +1,380 @@
+{
+ "id": "nist_ctc_02",
+ "vertices": 26750,
+ "triangles": 30022,
+ "bounds": [
+  [
+   -340.0,
+   -430.0,
+   -200.0
+  ],
+  [
+   340.0,
+   430.0,
+   200.0
+  ]
+ ],
+ "source": "nist_ctc_02_asme1_rc.stp",
+ "features": [
+  {
+   "feature_id": "Hole_01",
+   "center": [
+    0.0,
+    -425.9995,
+    20.0
+   ],
+   "axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "diameter": 120.0,
+   "depth": 8.001
+  },
+  {
+   "feature_id": "Hole_02",
+   "center": [
+    0.0,
+    -190.0,
+    -25.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "diameter": 115.0,
+   "depth": 450.0
+  },
+  {
+   "feature_id": "Hole_03",
+   "center": [
+    0.0,
+    0.0,
+    20.0
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "diameter": 115.0,
+   "depth": 730.0
+  },
+  {
+   "feature_id": "Hole_04",
+   "center": [
+    261.0,
+    -190.0,
+    -25.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "diameter": 100.0,
+   "depth": 8.0
+  },
+  {
+   "feature_id": "Hole_05",
+   "center": [
+    0.0,
+    -369.0,
+    20.0
+   ],
+   "axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "diameter": 75.0,
+   "depth": 8.0
+  },
+  {
+   "feature_id": "Hole_06",
+   "center": [
+    241.0,
+    -190.0,
+    -25.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "diameter": 52.0,
+   "depth": 32.0
+  },
+  {
+   "feature_id": "Hole_07",
+   "center": [
+    0.0,
+    -397.4995,
+    20.0
+   ],
+   "axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "diameter": 40.0,
+   "depth": 49.001
+  },
+  {
+   "feature_id": "Hole_08",
+   "center": [
+    -302.0,
+    -293.0,
+    159.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 22.0,
+   "depth": 81.0
+  },
+  {
+   "feature_id": "Hole_09",
+   "center": [
+    -302.0,
+    -88.0,
+    159.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 22.0,
+   "depth": 81.0
+  },
+  {
+   "feature_id": "Hole_10",
+   "center": [
+    -227.0,
+    245.0,
+    159.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 22.0,
+   "depth": 81.0
+  },
+  {
+   "feature_id": "Hole_11",
+   "center": [
+    227.0,
+    245.0,
+    159.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 22.0,
+   "depth": 81.0
+  },
+  {
+   "feature_id": "Hole_12",
+   "center": [
+    302.0,
+    -293.0,
+    159.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 22.0,
+   "depth": 81.0
+  },
+  {
+   "feature_id": "Hole_13",
+   "center": [
+    302.0,
+    -88.0,
+    159.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "diameter": 22.0,
+   "depth": 81.0
+  },
+  {
+   "feature_id": "Hole_14",
+   "center": [
+    -150.0,
+    365.0,
+    147.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 12.0,
+   "depth": 25.0
+  },
+  {
+   "feature_id": "Hole_15",
+   "center": [
+    216.0,
+    -365.0,
+    147.5
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 12.0,
+   "depth": 25.0
+  },
+  {
+   "feature_id": "Hole_16",
+   "center": [
+    -230.0,
+    -330.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_17",
+   "center": [
+    -230.0,
+    -255.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_18",
+   "center": [
+    -230.0,
+    -180.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_19",
+   "center": [
+    -230.0,
+    -105.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_20",
+   "center": [
+    -230.0,
+    -30.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_21",
+   "center": [
+    -207.0,
+    45.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_22",
+   "center": [
+    -185.0,
+    -370.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_23",
+   "center": [
+    -169.0,
+    110.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  },
+  {
+   "feature_id": "Hole_24",
+   "center": [
+    -155.0,
+    170.0,
+    145.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 10.1,
+   "depth": 30.0
+  }
+ ]
+}

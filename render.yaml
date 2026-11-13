@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: metrology-engine
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/parts

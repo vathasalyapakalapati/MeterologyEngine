@@ -1,0 +1,35 @@
+{
+ "id": "nist_ftc_11",
+ "vertices": 2066,
+ "triangles": 3590,
+ "bounds": [
+  [
+   -31.479,
+   -31.454,
+   -1.5
+  ],
+  [
+   31.479,
+   31.454,
+   1.5
+  ]
+ ],
+ "source": "nist_ftc_11_asme1_rb.stp",
+ "features": [
+  {
+   "feature_id": "Hole_01",
+   "center": [
+    0.0018,
+    0.0462,
+    -0.75
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "diameter": 32.0,
+   "depth": 1.5
+  }
+ ]
+}
